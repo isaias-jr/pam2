@@ -1,0 +1,12 @@
+body{
+    background-color: #FF0;
+    padding: 10px;
+    color: blue;
+    margin: 5px;
+    border: 5px double;
+}
+h1{
+    font-size: 5px;
+    font-weight: bold;
+    font-family: Arial;
+}
