@@ -7,8 +7,10 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
-        <link href="css/estilo.css" rel="stylesheet" />
+        
         <link href="css-bootstrap/bootstrap.css" rel="stylesheet"/>
+
+        <link href="css/estilo.css" rel="stylesheet" />
         <title>App Isaias</title>
     </head>
     <body>
@@ -44,6 +46,25 @@
               </div>
             </div>
           </nav>
+          <div class="row">
+            <div class="col-xs-12">
+             <label>Nome</label>
+             <input type="text" id="Nome"/> 
+            </div>
+
+         <div class="row">
+              <div class="col-xs-12">
+               <label>Documento</label>
+               <input type="text" id="Documento"/> 
+              </div>
+
+           <div class="row">
+                <div class="col-xs-12">
+                 <label>Celular</label>
+                 <input type="text" id="Celular"/> 
+                </div>
+    
+  
 
         <div class="row">
             <div class="col-xs-12">
@@ -72,10 +93,18 @@
                      <button id="botao" class="btn btn-primary">
                         Consultar
                      </button>
+
+                     <div class="row">
+                      <div class="col-xs-12">
+                       <button class="btn btn-success " onclick="enviar ()">
+                          Salvar dados
+                       </button>
+                      </div>
                     </div>
                 </div>
 
-       <script src="js-bootstrap/bootstrap.bundle.js"></script>
+       <script src="https://etec.fernandograciano.com.br/cadastrocliente.php"></script>
        <script src="js/index.js"></script>
+       <script src="js/cadastro.js"></script>
     </body>
 </html>
